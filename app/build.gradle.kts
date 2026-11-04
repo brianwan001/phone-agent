@@ -19,8 +19,8 @@ android {
         applicationId = "tech.handsy.phoneagent"
         minSdk = 30
         targetSdk = 34
-        versionCode = 10
-        versionName = "1.1.1"
+        versionCode = 11
+        versionName = "1.1.2"
     }
 
     signingConfigs {

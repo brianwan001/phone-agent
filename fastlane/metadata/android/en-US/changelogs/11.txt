@@ -1,0 +1,1 @@
+Fix: remove built-in credentials — API key is now strictly user-supplied. Store metadata (Fastlane) added.
