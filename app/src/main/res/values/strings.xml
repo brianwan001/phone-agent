@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Phone Agent</string>
+    <string name="accessibility_service_label">Phone Agent (AI operator)</string>
+    <string name="accessibility_service_description">Lets the Phone Agent app see the screen and perform taps, swipes and text input to complete the task you give it. Only runs while a task is active.</string>
+</resources>

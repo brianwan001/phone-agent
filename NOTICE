@@ -1,0 +1,10 @@
+Android Phone Agent
+Copyright 2026 Android Phone Agent contributors
+
+This project is an Android port of ESP32 iPhone Agent by Henry Yuan
+(https://github.com/onehumanbeing/esp32-iphone-agent, MIT). The agent-loop
+design, prompt structure (prompts/actor.md, prompts/planner.md,
+prompts/app-rules.md) and the run-trace concept are derived from that project.
+
+If you build on this project, keep the LICENSE and credit both
+"ESP32 iPhone Agent by Henry Yuan" and this repository in your README and posts.

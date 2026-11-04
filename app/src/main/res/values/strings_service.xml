@@ -1,0 +1,7 @@
+<resources>
+    <string name="stop">Stop</string>
+    <string name="resume">Resume</string>
+    <string name="paused_title">Agent paused</string>
+    <string name="channel_name">Agent status</string>
+    <string name="tile_label">Agent 语音任务</string>
+</resources>

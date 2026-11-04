@@ -1,0 +1,26 @@
+Phone Agent is an AI agent that operates a real Android phone on your behalf. Give it a task in natural language (typed or spoken) and it sees the screen with a vision-language model, plans steps with an LLM, and drives the UI through the Accessibility Service: opening apps, searching, tapping, typing, scrolling — even posting a comment for you.
+
+<b>How it works</b>
+• Vision model understands screenshots; planning model decides the next action
+• Executes taps, long-presses, text input and gestures via Accessibility Service
+• Three-level click chain with visual verification after every step
+• Tools: launch apps, wait for on-screen text, zoom to inspect small UI, find apps by icon
+
+<b>Memory &amp; learning</b>
+• Semantic memory keeps facts across sessions
+• Experience store records successful action paths and replays them
+• Run history with step-by-step logs you can review
+
+<b>Voice commands</b>
+• Speak a task — recorded on-device (16 kHz mono PCM), transcribed via the configured API
+• Works hands-free end to end: speak → transcribe → execute
+
+<b>Reliability on aggressive OEMs</b>
+• Foreground service with wake lock; battery-optimization exemption guide
+• Built to survive MIUI / HyperOS process freezing
+
+<b>Bring your own model</b>
+• Any OpenAI-compatible endpoint (default preset: Zhipu BigModel)
+• You provide your own API key — nothing is bundled, no account required
+
+Open source (MIT). No ads, no tracking, no analytics, no proprietary SDKs. Requires Android 11+. Optional: Shizuku for elevated operations.
